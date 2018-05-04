@@ -1,0 +1,53 @@
+﻿2018-05-03T10:18:22.5901097-04:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-05-03T10:18:22.7615643-04:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-05-03T10:18:22.7615643-04:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\vbha\source\repos\TwitteAutomation\TwitteAutomation\bin\Debug\TwitteAutomation.dll
+2018-05-03T10:18:22.7625674-04:00;VSTestExecutionThread;Info;Profile: Default
+2018-05-03T10:18:34.8997809-04:00;Thread#12;Info;Discovering target: Default
+2018-05-03T10:18:34.8997809-04:00;Thread#12;Info;Discovering tests from assembly: C:\Users\vbha\source\repos\TwitteAutomation\TwitteAutomation\bin\Debug\TwitteAutomation.dll
+Appdomain Disposed
+Test Suite Dump
+#0: TwitteAutomation/Default - 
+#1: Default - 
+#2: TwitteAutomation - 
+#3: To Automate Twitter Application - 
+#4: Login to Twitter - TestAssembly:TwitteAutomation/Feature:To+Automate+Twitter+Application/Scenario:Login+to+Twitter
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for TwitteAutomation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\vbha\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.1\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I open Twitter application
+Thread#0:T:Maximized Browser
+Thread#0:T:done: Twitter.GivenIOpenTwitterApplication() (6.4s)
+Thread#0:B:When I Enter valid Username as "bharadwaja6111993@gmail.com"
+Thread#0:T:done: Twitter.WhenIEnterValidUsernameAs("bharadwaja6111993...") (1.4s)
+Thread#0:B:And I Enter valid Password as "bharadwaja!@#$%^&"
+Thread#0:T:done: Twitter.WhenIEnterValidPasswordAs("bharadwaja!@#$%^&") (0.2s)
+Thread#0:B:And I click on Login button
+Thread#0:T:done: Twitter.WhenIClickOnLoginButton() (3.0s)
+Thread#0:B:Then I verify login is successfull
+Thread#0:T:done: Twitter.ThenIVerifyLoginIsSuccessfull() (1.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 12.5430084 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
